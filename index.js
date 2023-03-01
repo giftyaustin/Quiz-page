@@ -7,6 +7,7 @@ function displayLogin() {
   x.style.display = "none";
   y.style.display = "inline-block";
 }
+
 function displayRegister() {
   var x = document.getElementById("register-box");
   var y = document.getElementById("login-box");
@@ -14,7 +15,7 @@ function displayRegister() {
   x.style.display = "inline-block";
 }
 
-// ==========onclick login button===================
+// ========== onclick login button ===================
 
 const loginClicked = document.getElementById("login-clicked");
 loginClicked.addEventListener("click", function(){
