@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- ==============login-box========================== -->
+    <form action="" style="display: none" class="login-box" id="login-box">
+      <h2>Login</h2>
+      <label for="username" class="email-word">Username</label>
+      <br />
+      <input type="text" id="username" class="login-input-box" />
+      <br />
+      <label for="password" class="email-word">Password</label>
+      <br />
+      <input type="password" id="password" class="login-input-box" />
+      <br />
+      <br />
+
+      <p>No account?</p>
+      <button type="button" onclick="displayRegister()" class="have-an-account">Create account</button>
+      <br />
+      <div class="login-button-holder">
+        <button class="login-button" type="button" id="login-clicked">
+          Log in
+        </button>
+      </div>
+    </form>
+
+    <!-- ================register========================= -->
+
+    <form action="" class="login-box" id="register-box">
+      <h2>Register</h2>
+
+      <label for="rusername" class="email-word">Username</label>
+      <br />
+      <input type="text" id="rusername" class="login-input-box" />
+      <br />
+      
+      <label for="rpassword" class="email-word">Password</label>
+      <br />
+      <input type="password" id="rpassword" class="login-input-box" />
+      <br />
+      <br />
+
+      <p>Have an account?</p>
+      <button type="button" onclick="displayLogin()" class="have-an-account">Login</button> <br />
+      <div class="login-button-holder">
+        <button class="login-button" type="button"  id="register-clicked">
+          Create account
+        </button>
+      </div>
+    </form>
+
+    <!-- ===============question box======================== -->
+
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>

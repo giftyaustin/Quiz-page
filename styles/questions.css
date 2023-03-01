@@ -1,0 +1,108 @@
+*{
+    background-color: rgb(5, 5, 64);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* =================== question boxes ==================== */
+.qpage-container{
+    position: relative;
+}
+
+.q-container div p{
+    color: white;
+    background-color: transparent;
+    
+}
+
+.q-container{
+    background: linear-gradient(23deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%);
+
+}
+
+.q-container .option-box,label,a,div,button {
+    background-color: transparent;
+}
+
+.q-container{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    min-width: 50%;
+    max-width: 70%;
+    border-radius: 6px;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+.psn-holder{
+    display: flex;
+}
+
+.q-container button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 80px;
+    
+    margin: 20px 30px 20px 0;
+    padding: 10px;
+    
+    font-size: large;
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, rgb(109, 216, 132) 0.00%, rgb(34, 107, 45) 100.00%);
+    border: 0;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+button:hover{
+    background-image: linear-gradient(90deg, rgb(46, 83, 55) 0.00%, rgb(44, 105, 54) 100.00%);
+    box-shadow: none;
+    transition: 0.15s;
+    
+    
+}
+
+
+.note{
+    display: block;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+/* ================= report card ==================== */
+
+.score-display{
+    background-color: transparent;
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+.user{
+    display: inline-block;
+}
+#username{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.end-btn-holder{
+    display: none;
+    
+    position: absolute;
+    justify-content: center;
+    bottom: 20%;
+}
+.end-buttons{
+    margin: 0 30px 0 100px;
+    height: 30px;
+    width: 100px;
+    background-image: linear-gradient(90deg, rgb(109, 216, 132) 0.00%, rgb(34, 107, 45) 100.00%);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.end-buttons:hover{
+    box-shadow: none;
+    background-image: linear-gradient(90deg, rgb(201, 239, 210) 0.00%, rgb(74, 105, 79) 100.00%);
+}
+

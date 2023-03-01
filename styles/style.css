@@ -1,0 +1,84 @@
+*{
+    background-color: rgb(5, 5, 64);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-box{
+    
+    position: absolute;
+    display: inline-block;
+    background: linear-gradient(#F5F7FA, #C3CFE2);
+    padding: 0 0 0 15px;
+    min-width:20%;
+    max-width: 25%;
+    top: 200px;
+    left: 35%;
+    right: 40%;
+    /* border: 2px solid yellow; */
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    
+}
+
+
+.email-word{
+    background-color: transparent;
+    color: black;
+    
+}
+
+.login-input-box{
+    min-width: 47%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin: 10px 0 10px 0;
+    background-color: transparent;
+}
+
+.login-box , .login-input-box,h2, p, button,div{
+    background-color: transparent;
+    color: black;
+}
+.login-box p{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.login-button{
+    min-width: 50%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: large;
+    background-color: rgb(14, 156, 208);
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.login-button-holder{
+    display: flex;
+    justify-content: center;
+}
+.login-box h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.login-button:hover{
+    background-image: linear-gradient(rgb(12, 117, 155),rgb(63, 154, 215));
+    box-shadow: none;
+    
+}
+
+.have-an-account:hover{
+    background-color: rgb(63, 154, 215);
+}
+
+
+
+
+
