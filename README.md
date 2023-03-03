@@ -2,6 +2,8 @@
 
 Currently not compatible with mobile screens.
 
+Login credentials are only saved in the local storage.
+
 
 
 Page link: 
